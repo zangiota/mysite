@@ -56,7 +56,7 @@ const Imageslider = () => {
                     <div className='about-slide__row'>
                         <h1 className='about-gallery__title'>/ О нас</h1>
                         <h3 className='carousel-gallery-title'>Последние новости</h3>
-                        <p className='carousel-galley-subttile'>20-21 января этого года мы раздали мясо и продукты питания в помощь населению в Чирчикском,Эшонгузарском и ряд районов нашей столицы.</p>
+                        <p className='carousel-galley-subttile'>В феврале текущего года совместно с Вакф ХЖФ были безвозмездно переданы и розданы продовольственные продукты к населению Самарканда, Хамзы, Достлика и ряда махаллей Чортокского и Янгийульского районов нашей столицы.</p>
                         <Carousel AnimationHandler={'slide'} infiniteLoop >
                             {
                                 sliderData.map((element, i) => {
