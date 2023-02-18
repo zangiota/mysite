@@ -7,8 +7,8 @@ import AboutMosque from "../EnPageComponents/AboutMosque";
 import MosquSlider from '../EnPageComponents/slide';
 import PrayerTime from '../EnPageComponents/PrayerTime';
 import Footer from '../EnPageComponents/Footer';
-import Appvideo from "../EnPageComponents/video";
-import ehsonVideo from "../EnPageComponents/ehsonVideo";
+import Appvideo from '../EnPageComponents/video';
+import Mainvideo from '../EnPageComponents/donate';
 
 
 const EnPage = () => {
@@ -16,7 +16,7 @@ const EnPage = () => {
         <>
             <Header />
             <Main />
-            <ehsonVideo />
+            <Mainvideo />
             <Appvideo />
             <AboutMosque />
             <MosquSlider />

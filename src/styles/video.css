@@ -12,6 +12,10 @@
 .video_cl {
     color: rgb(236,134, 0);
     font-size: 26px;
+    display: inline-block;
+    align-self: flex-start;
+    
+    
 }
 .video_mosque {
     width: 100%;

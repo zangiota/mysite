@@ -7,8 +7,8 @@ import AboutMosque from "../RuPageComponents/AboutMosque";
 import MosquSlider from '../RuPageComponents/slide';
 import PrayerTime from '../RuPageComponents/PrayerTime';
 import Footer from '../RuPageComponents/Footer';
-import Appvideo from "../RuPageComponents/video";
-import ehsonVideo from "../RuPageComponents/ehsonVideo";
+import Appvideo from '../RuPageComponents/video';
+import Mainvideo from '../RuPageComponents/donate';
 
 
 const RuPage = () => {
@@ -16,7 +16,7 @@ const RuPage = () => {
         <>
             <Header />
             <Main />
-            <ehsonVideo />
+            <Mainvideo />
             <Appvideo />
             <AboutMosque />
             <MosquSlider />

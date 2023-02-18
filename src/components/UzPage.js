@@ -7,15 +7,15 @@ import AboutMosque from '../UzPageComponents/AboutMosque';
 import MosquSlider from '../UzPageComponents/slide';
 import PrayerTime from '../UzPageComponents/PrayerTime';
 import Footer from '../UzPageComponents/Footer';
-import Appvideo from "../UzPageComponents/video";
-import ehsonVideo from "../UzPageComponents/ehsonVideo";
+import Appvideo from '../UzPageComponents/video';
+import Mainvideo from '../UzPageComponents/donate';
 
 const UzPage = () => {
     return (
         <>
             <Header />
             <Main />
-            <ehsonVideo />
+            <Mainvideo />
             <Appvideo />
             <AboutMosque />
             <MosquSlider />
