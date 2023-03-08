@@ -2,14 +2,20 @@ import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../styles/gallery.css'
-import img1 from '../images/ehson9.jpg'
-import img2 from '../images/ehson10.jpg'
-import img3 from '../images/ehson11.jpg'
-import img4 from '../images/ehson12.jpg'
-import img5 from '../images/ehson13.jpg'
-import img6 from '../images/ehson14.jpg'
-import img8 from '../images/ehson16.jpg'
-import img9 from '../images/ehson17.jpg'
+import img1 from '../images/a1.jpg'
+import img2 from '../images/a2.jpg'
+import img3 from '../images/a3.jpg'
+import img4 from '../images/a4.jpg'
+import img5 from '../images/a5.jpg'
+import img6 from '../images/a6.jpg'
+import img8 from '../images/a7.jpg'
+import img9 from '../images/a8.jpg'
+import img10 from '../images/b1.jpg'
+import img11 from '../images/b2.jpg'
+import img12 from '../images/b3.jpg'
+import img13 from '../images/b4.jpg'
+import img14 from '../images/b5.jpg'
+import img15 from '../images/b6.jpg'
 
 
 export const sliderData=[
@@ -27,7 +33,7 @@ export const sliderData=[
         image:img3
     },
     {
-        id:"4",
+        id: 4,
         image:img4
     },
     {
@@ -45,6 +51,31 @@ export const sliderData=[
     {
         id:9,
         image:img9
+    },
+    {
+        id:10,
+        image:img10
+        
+    },
+    {
+        id:11,
+        image:img11
+    },
+    {
+        id:12,
+        image:img12
+    },
+    {
+        id: 13,
+        image:img13
+    },
+    {
+        id:14,
+        image:img14
+    },
+    {
+        id:15,
+        image:img15
     }
 ]
 
@@ -56,7 +87,7 @@ const Imageslider = () => {
                     <div className='about-slide__row'>
                         <h1 className='about-gallery__title'>/ About us</h1>
                         <h3 className='carousel-gallery-title'>Latest news</h3>
-                        <p className='carousel-galley-subttile'>In February of this year, food products were donated and distributed to the population in Samarkand, Hamza, Dustlik and a number of neighborhoods of the Chortoq and Yangiyul districts of our capital in cooperation with the Vaqf XJF.</p>
+                        <p className='carousel-galley-subttile'>Donation meat was distributed by "Zangiota ziyoratgohi" to residents living in Yangi hayot District of Tashkent City and  O'rta, Bog'zor and Yuksalish MFY in Zangiota, Yangiyul district of Tashkent region.</p>
                         <Carousel AnimationHandler={'slide'} infiniteLoop >
                             {
                                 sliderData.map((element, i) => {
